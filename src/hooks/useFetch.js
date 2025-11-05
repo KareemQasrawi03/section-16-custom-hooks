@@ -21,7 +21,7 @@ function useFetch(fetchFun, initalValue) {
 
     fetchPlaces();
   }, [fetchFun]);
-  return { isFetching, error, fecthData };
+  return { isFetching, error, fecthData, setFetchData };
 }
 
 export default useFetch;
